@@ -8,80 +8,135 @@
     <link rel="stylesheet" href="misetestilos.css">
 </head>
 <body>
+    (inicio body)
     <div id="agrupar">
+    (div)
     <header id="cabecera">
+        (inicio header)
         <h1>Creando un sitio web</h1>
+        (final header)
     </header>
     <nav id="menu">
-        <ul>
+        (inicio nav)
+        (ul)
+        <ul>(li)
             <li>Principal</li>
             <li>fotos</li>
             <li>videos</li>
-            <li>contactos</li>
+            <li>contactos</li>(li)
         </ul>
+        (ul)
+        (final nav)
     </nav>
     <section id="seccion">
+        (inicio section)
         <article>
+            (inicio article 1)
             <header>
+                (header inicio dentro de article 1)
                 <hgroup>
-                    <h1>Título del mensaje uno</h1>
-                    <h2>Subtítulo del mensaje dos</h2>
+                    (inicio hgroup)
+                    <h1>(h1)Título del mensaje uno(h1)</h1>
+                    <h2>(h2)Subtítulo del mensaje dos(h2) </h2>
+                    (final hgroup)
                 </hgroup>
+                (inicio p)
                 <p>publicado 07 - 03 - 22</p>
                 <p id=”texto1”>Mi texto con id</p>
                 <p class=”texto2”>Mi texto 2 clase</p>
                 <p class=”texto2”>Mi texto 2 clase</p>
+                (final p)
+                (final header dentro de article 1)
             </header>
+            (inicio texto dentro de article no necesita etiqueta)
             Este es el texto de mi primer mensaje
-
+            (final texto dentro article)
+                (inicio figure)
             <figure>
+
                 <!--suppress HtmlDeprecatedAttribute, CheckImageSize -->
-                <img src= "img/portal1.png" alt="texto alternativo" border="10px" height="512px" width="512px" >
+                <img src= "img/portal1.png" alt="texto alternativo"  border="10px" height="512px" width="512px" >
                 <figcaption>
-                Esta es la imagen del primer mensaje:
-                    <span>(span)Mi <mark>(mark)portal</mark> es verde.</span>
+                (figcaption inicio)
+                    <span>(span)Mi <mark>(mark)portal(mark)</mark> es verde.</span>(span)
                 </figcaption>
+                (final figcaption)
+
             </figure>
+            (final figure)
             <footer>
-                <span>(span)Amo la película <cite>(cite)Tentaciones</cite></span>
+                (inicio footer dentro de article 1)
+                (span inicio)
+                <span>Amo la película <cite>(cite inicio)Tentaciones(cite final)</cite></span>(span final)(address inicio)
                 <address>
-                    <a target="_blank" href="https://www.youtube.com/channel/UCDJvsSaFLRJgidG-1TlTfNA"><button type="button"><!--suppress HtmlRequiredAltAttribute -->
-                        <img src="img/youtube.png" width="512" height="512"></button></a>
+                    (a)
+                    <a target="_blank" href="https://www.youtube.com/channel/UCDJvsSaFLRJgidG-1TlTfNA">(button)<button type="button"><!--suppress HtmlRequiredAltAttribute -->
+                        <img src="img/youtube.png" width="512" height="512"></button>(button)</a>(a)
+                    (address final)
                 </address>
-                <p>comentarios (0)</p>
+                <p>(p)comentarios (0)(p)</p>
+                (final footer dentro de article 1)
             </footer>
+            (final article 1)
         </article>
         <article>
+            (inicio article 2)
             <header>
+                (header)
                <hgroup>
-                    <h1>Título del mensaje dos</h1>
-                    <h2>Subtítulo del mensaje dos</h2>
+                   (hgroup inicio)
+                    <h1>(h1)Título del mensaje dos(h1)</h1>
+                    <h2>(h2)Subtítulo del mensaje dos(h2)</h2>
+                   (hgroup final)
                 </hgroup>
                 <!--suppress HtmlUnknownAttribute -->
-                <time datetime="2022-03-08" pubdate>publicado 08-03-2022</time> (time)
+                (etiqueta time inicio)
+                <time datetime="2022-03-08" pubdate>publicado 08-03-2022</time> (etiqueta time final)
             </header>
+            (header final)
             Este es el texto de mi segundo mensaje
             <footer>
+                (footer inicio)
+                (p)
                 <p>comentarios (0)</p>
+                (p)
+                (footer final)
             </footer>
+            (final article 2)
         </article>
         <article>
+            (inicio article 3)
             <div id="wrapper">
+                (div)
+                (p)
                 <p class="mitexto1">Mi texto1</p>
                 <p class="mitexto2">Mi texto2</p>
                 <p class="mitexto3">Mi texto3</p>
                 <p class="mitexto4">Mi texto4</p>
+                (p)
+                (div)
             </div>
+            (final article 3)
         </article>
+        (final section)
     </section>
+
     <aside id="columna">
+        (aside inicio)
+        (blockquote inicio)
         <blockquote>mensaje número uno</blockquote>
         <blockquote>mensaje número dos</blockquote>
+        (blockquote final)
+        (aside final)
     </aside>
     <footer id="pie">
+        (footer)
         Derechos Reservados &copy; 2022-2023
-        <small>(small)Derechos Reservados &copy; 2011 MinkBooks</small>
+        <small>(small)Derechos Reservados &copy; 2011 MinkBooks(small)</small>
+        (footer)
     </footer>
+        (div)
     </div>
+    (fin body)
 </body>
 </html>

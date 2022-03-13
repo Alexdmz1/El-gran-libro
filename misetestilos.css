@@ -79,7 +79,7 @@ border: 1px solid #999999;
 padding: 20px;
 }
 
-/*Bara de navegación*/
+/*Barra de navegación*/
 
 #menu {
 background: #CCCCCC;
@@ -112,4 +112,29 @@ clear: both;
 text-align: center;
 padding: 20px;
 border-top: 2px solid #999999;
+}
+/*article crear bordes y márgenes*/
+article {
+background: #FFFBCC;
+border: 1px solid #999999;
+padding: 20px;
+margin-bottom: 15px;
+}
+/*footer dentro de article*/
+article footer {
+text-align: right;
+}
+article footer span{
+    font: italic 10px verdana, sans-serif;
+}
+article figure figcaption span{
+    font: italic 15px verdana, sans-serif;
+}
+/*fecha color*/
+time {
+color: #999999;
+}
+/*texto de imagen cambio fuente*/
+figcaption {
+font: italic 14px verdana, sans-serif;
 }
