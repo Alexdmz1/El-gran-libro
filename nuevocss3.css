@@ -15,12 +15,12 @@ body{
     border-radius: 20px; /* redondear esquinas*/
     -moz-box-shadow: rgb(150,150,150) -5px -5px;
     -webkit-box-shadow: rgb(150,150,150) -5px -5px;
-    box-shadow: rgb(150,150,150) -5px 5px 10px inset; /*horizontal,vertical,difuminado,sombra dentro de la caja */
+    box-shadow: rgb(150,150,150) -5px 5px 10px inset; /*color,horizontal,vertical,difuminado,sombra dentro de la caja */
 }
 
 #titulo{
     font: bold 36px MiNuevaFuente, Verdana, sans-serif; /* llamar  desde font-face la nueva fuente*/
-    text-shadow: rgb(190,0,0) 3px 3px 5px; /*sombra en texto*/
+    text-shadow: rgb(190,0,0) 3px 3px 5px; /*sombra en texto: color*/
 }
 
 @font-face {
